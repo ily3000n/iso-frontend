@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['localhost', 'loremflickr.com'],
+    domains: ['localhost', 'loremflickr.com','picsum.photos'],
   },
   env: {
     NEXT_PUBLIC_BACKEND_URL: 'http://localhost:8080',

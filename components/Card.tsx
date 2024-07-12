@@ -23,7 +23,7 @@ const Card = () => {
             <div className="flex flex-col lg:flex-row items-center p-4 gap-4">
               <div className="flex-shrink-0 w-28 h-28 md:w-32 md:h-32 lg:w-36 lg:h-36">
                 <Image
-                  src={faker.image.url({ width: 200, height: 200, category: 'abstract', randomize: true })} // using the new faker.image.url method
+                  src={faker.image.abstract(200, 200, true)} // Using faker.image.abstract with parameters
                   alt={card.title}
                   layout="responsive"
                   width={144}

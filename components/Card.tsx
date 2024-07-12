@@ -147,6 +147,8 @@ import { Button } from './ui/moving-border';
 import Image from 'next/image';
 import { faker } from '@faker-js/faker';
 
+
+
 const Card = () => {
   return (
     <div className="py-10 px-4 bg-gray-100" id="exp">
